@@ -4,7 +4,7 @@
 
 **📊 Collection Overview**:
 - �️ **24 Thematic Categories**
-- 💾 **Total Storage**: ~8.5GB
+- 💾 **Total Storage**: ~9.0GB
 - 🖼️ **Total Images**: 2,636 wallpapers
 - 📅 **Timeline**: 2018-2026 (9 years)
 - 🎯 **Resolution Range**: 1080p to 8K Ultra HD
@@ -155,7 +155,7 @@ Comprehensive 2021 special collection, complementing the main 2021 folder
 
 **📊 收藏概览**：
 - 🗂️ **24个主题分类**
-- 💾 **总存储容量**: ~8.5GB
+- 💾 **总存储容量**: ~9.0GB
 - 🖼️ **壁纸总数**: 2,636张壁纸
 - 📅 **时间跨度**: 2018-2026年(9年)
 - 🎯 **分辨率范围**: 1080p至8K超高清
@@ -831,7 +831,7 @@ If you have any suggestions, comments, or would like to contribute content to th
 | **Category | 分类** | **Value | 数值** |
 |---------------------------|-------------------------|
 | **Total Folder Count | 总文件夹数** | 24 thematic categories | 24个主题分类 |
-| **Total Storage Capacity | 总存储容量** | ~8.5GB | ~8.5GB |
+| **Total Storage Capacity | 总存储容量** | ~9.0GB | ~9.0GB |
 | **Total Image Count | 壁纸总数** | 2,636 wallpapers | 2,636张壁纸 |
 | **Collection Years | 收藏年份** | 2018-2026 (9 years) | 2018-2026年 (9年) |
 | **Largest Collection | 最大单个收藏** | 黑猫的野望壁纸包 (1.8GB, 204 images) | 黑猫的野望壁纸包 (1.8GB, 204张) |
