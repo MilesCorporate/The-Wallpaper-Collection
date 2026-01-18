@@ -4,11 +4,11 @@
 
 **📊 Collection Overview**:
 - �️ **24 Thematic Categories**
-- 💾 **Total Storage**: ~7.2GB
-- 🖼️ **Total Images**: 2,616 wallpapers
-- 📅 **Timeline**: 2018-2025 (8 years)
+- 💾 **Total Storage**: ~9.0GB
+- 🖼️ **Total Images**: 2,636 wallpapers
+- 📅 **Timeline**: 2018-2026 (9 years)
 - 🎯 **Resolution Range**: 1080p to 8K Ultra HD
-- 🌟 **Latest Addition**: 132 new wallpapers in 2025
+- 🌟 **Latest Addition**: 17 new wallpapers in 2026
 
 ## 📸 Primary Sources
 
@@ -55,14 +55,22 @@ Contemporary minimalist design trends and clean aesthetics
 #### **2024 Wallpaper** (383MB - Diverse Fusion | 多元融合)
 Multi-style integration reflecting current design diversity
 
-#### **2025 Wallpaper** (459MB - Current Evolution | 当前进化)
-**🔥 Latest Collection** (132 wallpapers) featuring:
+#### **2025 Wallpaper** (1.1GB - Evolution Year | 进化之年)
+Comprehensive collection (252 wallpapers) featuring:
 - **📱 iPad Exclusive Series** - YTECHB curated iPad wallpapers (25 pieces)
 - **🤖 AI Generated Art** - aishot series AI artistic creations (20+ pieces)
 - **📸 Unsplash 2025 Selection** - Latest professional photography
 - **🖥️ Ultrawide Collection** - UltrawideWallpapersDotNet optimized series (5 pieces)
-- **🍎 macOS Style** - Including Cloudburst, Ink+Cloud, MidnightMac themes
+- **🍎 macOS Style** - Including Cloudburst, Ink+Cloud, MidnightMac themes with 4K variants
 - **🌊 Nature Landscapes** - Rivers, mountains, oceans, and natural phenomena
+- **🎨 Dark Mode & Light Mode** - Paired wallpapers for system theme integration
+
+#### **2026 Wallpaper** (47MB - Contemporary Collection | 当代收藏)
+**🔥 Latest Collection** (17 wallpapers) featuring:
+- **📸 Unsplash 2026 Selection** - Fresh professional photography from top photographers
+- **🌄 Nature Focus** - Mountain landscapes, aurora views, and natural phenomena
+- **🎨 Artistic Photography** - Contemporary photographic art and compositions
+- **📐 High Resolution** - Optimized for modern displays and devices
 
 ### 🎨 Thematic Collections
 
@@ -147,11 +155,11 @@ Comprehensive 2021 special collection, complementing the main 2021 folder
 
 **📊 收藏概览**：
 - 🗂️ **24个主题分类**
-- 💾 **总存储容量**: ~7.2GB
-- 🖼️ **壁纸总数**: 2,616张壁纸
-- 📅 **时间跨度**: 2018-2025年(8年)
+- 💾 **总存储容量**: ~9.0GB
+- 🖼️ **壁纸总数**: 2,636张壁纸
+- 📅 **时间跨度**: 2018-2026年(9年)
 - 🎯 **分辨率范围**: 1080p至8K超高清
-- 🌟 **最新添加**: 2025年新增132张壁纸
+- 🌟 **最新添加**: 2026年新增17张壁纸
 
 ## � 主要来源
 
@@ -243,11 +251,11 @@ Comprehensive 2021 special collection, complementing the main 2021 folder
 - **多分辨率**: 支持各种宽高比和分辨率
 
 ### 📊 **Organization Structure | 组织结构**
-- **📅 Chronological Archive**: 2018-2025 annual archiving for easy tracking
+- **📅 Chronological Archive**: 2018-2026 annual archiving for easy tracking
 - **🏷️ Thematic Grouping**: 24 professional categories for quick navigation
 - **📝 Clear Naming**: Intuitive file and folder naming conventions
 - **📏 Size Notation**: Each category annotated with storage size information
-- **年度归档**: 2018-2025年度归档，便于追溯
+- **年度归档**: 2018-2026年度归档，便于追溯
 - **主题分组**: 24个专业分类，快速导航定位
 - **清晰命名**: 直观的文件和文件夹命名规则
 - **大小标注**: 每个分类都标注存储大小信息
@@ -540,21 +548,39 @@ Comprehensive 2021 special collection, complementing the main 2021 folder
 
 ## 🔄 Update Log | 更新日志
 
-### 📅 **2025 Updates (Current) | 2025年更新(当前)**
+### 📅 **2026 Updates (Current) | 2026年更新(当前)**
 
 **English:**
-- ✨ **New Additions**: 132 curated wallpapers (459MB)
+- ✨ **New Additions**: 17 curated wallpapers (47MB)
+- 📸 **Featured Content**: Fresh Unsplash photography from top photographers
+- 🌄 **Highlights**: Nature-focused collection featuring mountains, aurora, and artistic compositions
+- 📐 **Optimizations**: High-resolution images optimized for modern displays
+- 🎨 **Focus**: Contemporary photographic art and natural phenomena
+
+**中文:**
+- ✨ **新增内容**: 17张精选壁纸(47MB)
+- 📸 **特色内容**: 来自顶级摄影师的最新Unsplash摄影作品
+- 🌄 **突出亮点**: 以自然为主题的收藏，包含山脉、极光和艺术构图
+- 📐 **优化改进**: 为现代显示器优化的高分辨率图像
+- 🎨 **重点方向**: 当代摄影艺术和自然现象
+
+### 📅 **2025 Review | 2025年回顾**
+
+**English:**
+- ✨ **New Additions**: 252 curated wallpapers (1.1GB)
 - 🎨 **Featured Content**: AI art series, iPad exclusive wallpapers, ultrawide adaptations
 - 🌟 **Highlights**: YTECHB iPad wallpaper series (25 pieces), Unsplash 2025 selections
 - 💾 **Optimizations**: Improved file naming conventions, optimized storage structure
 - 🤖 **AI Integration**: Expanded AI-generated art from multiple platforms
+- 🎨 **Dark/Light Mode**: Paired wallpapers for system theme integration
 
 **中文:**
-- ✨ **新增内容**: 132张精选壁纸(459MB)
+- ✨ **新增内容**: 252张精选壁纸(1.1GB)
 - 🎨 **特色内容**: AI艺术系列、iPad专用壁纸、超宽屏适配
 - 🌟 **突出亮点**: YTECHB iPad壁纸系列(25张)、Unsplash 2025精选
 - 💾 **优化改进**: 改进文件命名规范，优化存储结构
 - 🤖 **AI集成**: 扩展多平台AI生成艺术作品
+- 🎨 **深浅模式**: 系统主题集成的配对壁纸
 
 ### 📅 **2024 Review | 2024年回顾**
 
@@ -805,34 +831,36 @@ If you have any suggestions, comments, or would like to contribute content to th
 | **Category | 分类** | **Value | 数值** |
 |---------------------------|-------------------------|
 | **Total Folder Count | 总文件夹数** | 24 thematic categories | 24个主题分类 |
-| **Total Storage Capacity | 总存储容量** | ~7.2GB | ~7.2GB |
-| **Total Image Count | 壁纸总数** | 2,616 wallpapers | 2,616张壁纸 |
-| **Collection Years | 收藏年份** | 2018-2025 (8 years) | 2018-2025年 (8年) |
-| **Largest Collection | 最大单个收藏** | 黑猫的野望壁纸包 (1.7GB, 204 images) | 黑猫的野望壁纸包 (1.7GB, 204张) |
-| **Latest Update | 最新更新** | 2025 Collection (132 images) | 2025年收藏 (132张) |
+| **Total Storage Capacity | 总存储容量** | ~9.0GB | ~9.0GB |
+| **Total Image Count | 壁纸总数** | 2,636 wallpapers | 2,636张壁纸 |
+| **Collection Years | 收藏年份** | 2018-2026 (9 years) | 2018-2026年 (9年) |
+| **Largest Collection | 最大单个收藏** | 黑猫的野望壁纸包 (1.8GB, 204 images) | 黑猫的野望壁纸包 (1.8GB, 204张) |
+| **Latest Update | 最新更新** | 2026 Collection (17 images) | 2026年收藏 (17张) |
 | **Supported Formats | 支持格式** | JPG, PNG, HEIC, JPEG | JPG, PNG, HEIC, JPEG |
 | **Resolution Support | 分辨率支持** | 1080p - 8K Ultra HD | 1080p - 8K超高清 |
-| **Apple Park Collection | Apple Park收藏** | 9 HEIC images (129MB) | 9张HEIC图片 (129MB) |
+| **Apple Park Collection | Apple Park收藏** | 9 HEIC images (130MB) | 9张HEIC图片 (130MB) |
 | **AI Art Integration | AI艺术集成** | Multiple AI platforms | 多AI平台作品 |
 
 ### 🏆 **Collection Highlights | 收藏亮点**
 
 **English:**
-- **🥇 Largest Theme**: Anime Style Collection (黑猫的野望壁纸包) - 204 wallpapers
-- **🎨 Most Diverse**: MKBHDWallpapers - Technology aesthetic curation
+- **🥇 Largest Theme**: Anime Style Collection (黑猫的野望壁纸包) - 204 wallpapers (1.8GB)
+- **🎨 Most Diverse**: 2025 Wallpaper - 252 images with AI art, macOS styles, and nature
 - **📱 Most Device-Specific**: Apple Park - 9 HEIC exclusive images
 - **🤖 Most Innovative**: 2025 AI Art Series - Cutting-edge AI generated content
 - **🎮 Most Gaming-Focused**: CyberPunk 2077 corporate theme series
+- **🆕 Latest Addition**: 2026 Wallpaper - Fresh contemporary photography
 
 **中文:**
-- **🥇 最大主题**: 动漫风格收藏(黑猫的野望壁纸包) - 204张壁纸
-- **🎨 最多样化**: MKBHDWallpapers - 科技美学策划
+- **🥇 最大主题**: 动漫风格收藏(黑猫的野望壁纸包) - 204张壁纸 (1.8GB)
+- **🎨 最多样化**: 2025年壁纸 - 252张图片，包含AI艺术、macOS风格和自然景观
 - **📱 最具设备针对性**: Apple Park - 9张HEIC专用图片
 - **🤖 最具创新性**: 2025年AI艺术系列 - 前沿AI生成内容
 - **🎮 最具游戏特色**: CyberPunk 2077企业主题系列
+- **🆕 最新添加**: 2026年壁纸 - 最新当代摄影作品
 
 ---
 
-**English Version Last Updated**: August 1, 2025
-**中文版本最后更新**: 2025年8月1日
-**Version | 版本**: v8.0 - 2025 Bilingual Edition | 2025年双语版
+**English Version Last Updated**: January 16, 2026
+**中文版本最后更新**: 2026年1月16日
+**Version | 版本**: v9.0 - 2026 Bilingual Edition | 2026年双语版
