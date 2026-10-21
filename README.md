@@ -22,6 +22,15 @@
   <a href="#english">English</a> · <a href="#中文">中文</a> · <a href="#get-it-in-30-seconds">Quick start</a> · <a href="#starter-packs">Starter packs</a> · <a href="#star--fork--why-it-matters">Why Star / Fork</a>
 </p>
 
+> [!IMPORTANT]
+> **2026-10-21 · History rewritten and the collection restructured.**
+> Every old commit and tag now has a **new SHA**, about **480 files moved** (`*.png` → `*.webp`; new `Phone Wallpapers/`, `Social Assets/`, `Ultrawide Wallpapers/` lanes), and `Year of 2021/` was removed as a byte-identical duplicate.
+> **If you cloned or forked before this date, `git pull` will fail with “unrelated histories”.** Re-clone, or follow the one-command path for your case in **[MIGRATION.md](MIGRATION.md)**. Your fork itself is not damaged — only its link to upstream.
+>
+> **2026-10-21 · 历史已重写，目录已重构。**
+> 旧 commit 与 tag 全部换了 **SHA**，约 **480 个文件**迁移（`*.png` → `*.webp`；新增 `Phone Wallpapers/`、`Social Assets/`、`Ultrawide Wallpapers/`），并删除了与 `2021 Wallpaper/` 逐字节相同的 `Year of 2021/`。
+> **此前 clone 或 fork 的，`git pull` 会报 “unrelated histories”。** 解决方式：重新 clone，或按 **[MIGRATION.md](MIGRATION.md)** 中对应你情况的一条命令处理。你的 fork 本身没有损坏，只是与上游的关联断了。
+
 ---
 
 > **Enjoying this archive?** A **Star** helps others discover it on GitHub. A **Fork** saves the entire museum to your account — your backup, your remix, your PRs welcome.  
@@ -504,7 +513,7 @@ Found a rights issue? Open a GitHub Issue — takedown-friendly.
 
 | When | What changed |
 |------|----------------|
-| **Oct 21, 2026** | Re-curated: phone wallpapers → `Phone Wallpapers/`, press kits & avatars → `Social Assets/`; byte-identical `Year of 2021` tree removed; new `Ultrawide Wallpapers/` lane (185 images, 21:9 / 32:9 / panorama); PNG art re-encoded to WebP q92; repo now **28 folders / 2,685 images / 18 videos / ~5.8 GiB**, `.git` down from 8.9 GB to 5.7 GB |
+| **Oct 21, 2026** | Re-curated: phone wallpapers → `Phone Wallpapers/`, press kits & avatars → `Social Assets/`; byte-identical `Year of 2021` tree removed; new `Ultrawide Wallpapers/` lane (185 images, 21:9 / 32:9 / panorama); PNG art re-encoded to WebP q92; repo now **28 folders / 2,685 images / 18 videos / ~5.8 GiB**, `.git` down from 8.9 GB to 5.7 GB — existing clones/forks: see **[MIGRATION.md](MIGRATION.md)** |
 | **Oct 8, 2026** | Stats checked against the working tree: **27 folders**, **3,079 images**, **36 videos**, ~**10.2 GiB** of media; `2026 Wallpaper` has **272 images / ~963 MiB** |
 | **Aug 7, 2026** | README stats refresh: ~18 GB, **3,033 images**, **26 folders**; added **`BugattiDestrier`** (33 images / 141 MB) |
 | **Jun 2026** | README v10 showcase edition; previous stats snapshot (2,918 files, 25 categories) |
@@ -771,7 +780,7 @@ The-Wallpaper-Collection/
 
 | 时间 | 变更 |
 |------|------|
-| **2026 年 10 月 21 日** | 重新策展：手机壁纸 → `Phone Wallpapers/`，头像/物料 → `Social Assets/`，超宽 → `Ultrawide Wallpapers/`；删除逐字节重复的 `Year of 2021`；PNG 全部转 WebP q92；现为 **28 个文件夹 / 2,685 张 / 18 个视频 / ~5.8 GiB**，`.git` 从 8.9 GB 降到 5.7 GB |
+| **2026 年 10 月 21 日** | 重新策展：手机壁纸 → `Phone Wallpapers/`，头像/物料 → `Social Assets/`，超宽 → `Ultrawide Wallpapers/`；删除逐字节重复的 `Year of 2021`；PNG 全部转 WebP q92；现为 **28 个文件夹 / 2,685 张 / 18 个视频 / ~5.8 GiB**，`.git` 从 8.9 GB 降到 5.7 GB — 已有的 clone/fork 请看 **[MIGRATION.md](MIGRATION.md)** |
 | **2026 年 10 月 8 日** | 按工作区复核统计：**27 个文件夹**、**3,079 张图片**、**36 个视频**，媒体约 **10.2 GiB**；`2026 Wallpaper` 为 **272 张 / 约 963 MiB** |
 | **2026 年 8 月 7 日** | README 数据刷新：约 18 GB、**3,033 张**、**26 个文件夹**；新增 **`BugattiDestrier`**（33 张 / 141 MB） |
 | **2026 年 6 月** | README v10 展示版；此前数据快照（2,918 张、25 类） |
