@@ -1,15 +1,15 @@
 # The Wallpaper Collection
 
 <p align="center">
-  <strong>Eight years of desktop taste — one repo. ~10.2 GiB of media. 3,079 images + 36 videos. Zero filler folders.</strong><br>
+  <strong>Eight years of desktop taste — one repo. ~5.8 GiB of media. 2,685 images + 18 videos. Zero filler folders.</strong><br>
   <sub>八年策展 · 一个仓库 · 拿来即用 · 不必再乱搜壁纸</sub>
 </p>
 
 <p align="center">
   <a href="https://github.com/MilesCorporate/The-Wallpaper-Collection/stargazers"><img src="https://img.shields.io/github/stars/MilesCorporate/The-Wallpaper-Collection?style=for-the-badge&logo=github&label=Stars&color=ffcc00" alt="GitHub stars"></a>
   <a href="https://github.com/MilesCorporate/The-Wallpaper-Collection/network/members"><img src="https://img.shields.io/github/forks/MilesCorporate/The-Wallpaper-Collection?style=for-the-badge&logo=github&label=Forks&color=4078c0" alt="GitHub forks"></a>
-  <img src="https://img.shields.io/badge/images-3%2C079-blue?style=for-the-badge" alt="3079 images">
-  <img src="https://img.shields.io/badge/size-10.2%20GiB-9b59b6?style=for-the-badge" alt="10.2 GiB media">
+  <img src="https://img.shields.io/badge/images-2%2C685-blue?style=for-the-badge" alt="2685 images">
+  <img src="https://img.shields.io/badge/size-5.8%20GiB-9b59b6?style=for-the-badge" alt="5.8 GiB media">
   <img src="https://img.shields.io/badge/years-2018--2026-2ecc71?style=for-the-badge" alt="2018-2026">
 </p>
 
@@ -51,7 +51,7 @@ Clone it once. Browse by mood, device, or era. Stop hunting the same Unsplash ta
 |--------|------------|
 | **Bookmark** | [**Star the repo**](https://github.com/MilesCorporate/The-Wallpaper-Collection/stargazers) — stay updated, boost visibility |
 | **Own a copy** | [**Fork**](https://github.com/MilesCorporate/The-Wallpaper-Collection/fork) — full collection under *your* GitHub (backup + customize) |
-| **Use locally** | Clone (media files ~10.2 GiB; Git history adds to this) |
+| **Use locally** | Clone (media files ~5.8 GiB, Git history included in the clone) |
 
 ```bash
 # Clone the full collection
@@ -77,7 +77,7 @@ Pick one lane. Star the repo if it lands. Fork when you want your own vault.
 |------|--------------------------|----------|
 | **New machine** | `2026 Wallpaper` → `2025 Wallpaper` → `Apple Park` | Fresh 4K/5K setup, Mac or PC |
 | **Ultrawide / sim racing** | `2026 Wallpaper` → `2025 Wallpaper` (search `3440`, `ultrawide`, F1) | 21:9 / 32:9 monitors |
-| **Vibe / fandom** | `黑猫的野望壁纸包` · `2021 Wallpaper/CyberPunk 2077` · `Artemis II` | Anime, Night City, NASA |
+| **Vibe / fandom** | `黑猫的野望壁纸包` · `2021 Wallpaper/CyberPunk 2077` · `Phone Wallpapers/NASA Artemis II` | Anime, Night City, NASA |
 | **Automotive / design** | `BugattiDestrier` · `2026 Wallpaper` (search F1, Audi, Mercedes-AMG) | Hypercars, racing, industrial design |
 
 ---
@@ -96,7 +96,7 @@ Pick one lane. Star the repo if it lands. Fork when you want your own vault.
 
 ### Fork — make it yours
 
-- **Personal backup** of ~10.2 GiB of media / 3,079 images + 36 videos on *your* account
+- **Personal backup** of ~5.8 GiB of media / 2,685 images + 18 videos on *your* account
 - **Customize** — keep only the years/themes you love  
 - **Contribute back** — PR new wallpapers into the shared museum  
 - **Share** — point friends to *your* fork with your own notes  
@@ -111,7 +111,7 @@ Know someone still using a blurry Pinterest crop? Send them:
 
 Tweet / post template:
 
-> 8 years of curated wallpapers — 3,079 images + 36 videos, Cyberpunk, NASA Artemis II, Bugatti, anime, Apple Park HEIC. Free repo.
+> 8 years of curated wallpapers — 2,685 images + 18 videos, Cyberpunk, NASA Artemis II, Bugatti, anime, Apple Park HEIC. Free repo.
 > https://github.com/MilesCorporate/The-Wallpaper-Collection
 
 ---
@@ -124,7 +124,7 @@ Tweet / post template:
 | **Resolution-ready** | From 1080p classics to **4K / 5K / 8K** and **ultrawide (3440×1440+)** — including Formula 1, automotive, and Mac-native masters |
 | **Device-aware sets** | iPad (YTECHB), iPhone 12 official, ultrawide packs, dark/light **paired** macOS gradients |
 | **Culture + craft** | Cyberpunk corp factions, anime opus (**204** pieces), Apple Park **HEIC** campus set, **Artemis II** lunar flyby, and a dedicated **Bugatti** drop |
-| **Living archive** | **2026** alone is **~963 MiB / 272 images** — the active growth lane, not a stale snapshot |
+| **Living archive** | **2026** alone is **600 MiB / 280 images** — the active growth lane, not a stale snapshot |
 
 ---
 
@@ -134,12 +134,12 @@ Tweet / post template:
 |--------|-------|
 | **Collection span** | 2018 → 2026 |
 | **Top-level categories** | **27** folders |
-| **Working-tree media size** | **~10.2 GiB** (images and videos; excludes Git history) |
-| **Image files** | **3,079** (JPG, JPEG, PNG, HEIC, HEIF, WebP) |
-| **Video files** | **36** (MOV) |
+| **Working-tree media size** | **~5.8 GiB** (images and videos) |
+| **Image files** | **2,685** (JPG, WebP, HEIC, HEIF — PNG retired to WebP) |
+| **Video files** | **18** (MOV) |
 | **Resolution band** | 1080p through **8K** |
-| **Largest single theme** | `黑猫的野望壁纸包` — **1.7 GB**, **204** anime wallpapers |
-| **Newest spotlight** | `2026 Wallpaper` — **~963 MiB**, **272** images |
+| **Largest single theme** | `黑猫的野望壁纸包` — **815 MiB**, **204** anime wallpapers |
+| **Newest spotlight** | `2026 Wallpaper` — **600 MiB**, **280** images |
 | **Fresh thematic drop** | `BugattiDestrier` — **33** Bugatti Solitaire Destrier wallpapers |
 
 ---
@@ -162,7 +162,9 @@ Tweet / post template:
 ```
 The-Wallpaper-Collection/
 ├── 📅 Annual lanes (2018–2026)     ← time machine: what was hot each year
-├── 🎨 Thematic vaults              ← deep dives: brands, games, textures, NASA, automotive
+├── 🎨 Thematic vaults              ← deep dives: brands, games, textures, automotive
+├── 📱 Phone Wallpapers             ← every portrait screen, in one lane
+├── 📣 Social Assets                ← avatars, banners, press kits (not wallpapers)
 └── README.md                       ← you are here
 ```
 
@@ -172,7 +174,7 @@ The-Wallpaper-Collection/
 
 ## Annual collections — a timeline of taste
 
-### `2018-2020 Wallpaper` · 1.4 GB · 820 images  
+### `2018-2020 Wallpaper` · 1.1 GiB · 633 images  
 **The foundation era**
 
 Where the standards were set. This is the **brand-and-platform** chapter:
@@ -188,7 +190,7 @@ Where the standards were set. This is the **brand-and-platform** chapter:
 
 ---
 
-### `2021 Wallpaper` · 1.1 GB · 403 images  
+### `2021 Wallpaper` · 833 MiB · 363 images  
 **The gaming renaissance**
 
 The year the repo went **loud**:
@@ -203,28 +205,28 @@ The year the repo went **loud**:
 
 ---
 
-### `2022 Wallpaper` · 399 MB · 166 images  
+### `2022 Wallpaper` · 312 MiB · 161 images  
 **Quality over quantity**
 
 A tighter year — fewer files, higher bar. The curation philosophy shifted from “collect everything good” to **“only keep what still slaps.”**
 
 ---
 
-### `2023 Wallpaper` · 309 MB · 112 images  
+### `2023 Wallpaper` · 229 MiB · 106 images  
 **Modern minimalism**
 
 Clean lines, calm palettes, contemporary restraint. Ideal for **focus setups** and laptops you do not want visually shouting.
 
 ---
 
-### `2024 Wallpaper` · 383 MB · 96 images  
+### `2024 Wallpaper` · 231 MiB · 93 images  
 **Diverse fusion**
 
 Mixed styles reflecting how design trends collided — abstract, photo, tech, moody darks. A **transition year** into the AI-and-ultrawide era.
 
 ---
 
-### `2025 Wallpaper` · 1.1 GB · 252 images  
+### `2025 Wallpaper` · 761 MiB · 252 images  
 **The evolution year**
 
 The most **well-rounded** single-year folder in the repo:
@@ -242,7 +244,7 @@ The most **well-rounded** single-year folder in the repo:
 
 ---
 
-### `2026 Wallpaper` · ~963 MiB · 272 images
+### `2026 Wallpaper` · 600 MiB · 280 images
 **The current flagship lane**
 
 Not a teaser folder — a **full-season drop**:
@@ -258,16 +260,9 @@ Not a teaser folder — a **full-season drop**:
 
 ---
 
-### `Year of 2021` · 1.1 GB  
-**Parallel 2021 archive**
-
-Mirrors the 2021 thematic structure (Cyberpunk corps, Hello, Holiday, Yosemite, iPhone 12) for users who prefer this naming layout. Same era, alternate shelf.
-
----
-
 ## Thematic vaults — obsession, packaged
 
-### `黑猫的野望壁纸包` · 1.7 GB · 204 images  
+### `黑猫的野望壁纸包` · 815 MiB · 204 images  
 **The anime cathedral**
 
 The **largest themed pack** in the entire repository. Otaku culture, illustration-forward compositions, Japanese animation aesthetics at full volume. If you want one folder that defines “collection personality,” it is this one.
@@ -295,12 +290,28 @@ Premium **HEIC** photography of Apple Park — not wallpapers ripped from press 
 
 ---
 
-### `Artemis II` · 19 MB · 22 images  
-**NASA — Earth, Moon, Orion**
+### `Phone Wallpapers` · 89.8 MiB · 173 images  
+**The mobile lane — one folder for every portrait screen**
 
-**New in 2026.** Official **Artemis II** mission wallpapers: lunar flyby vistas, Earthrise-style perspectives, eclipse views from Orion, crater closeups (Vavilov, Orientale), and crew-window POVs. Real space program imagery — not sci-fi fan art.
+Phone art used to be scattered through the year folders. It now has a home:
 
-*For anyone who wants their desktop to feel like low Earth orbit.*
+- **`iOS/`** — iPhone 12 official set, Teardown, Stokes, Apple-event era picks
+- **`Android/`** — the Aura gradient system plus Android-resolution picks from 2018–2022
+- **`NASA Artemis II/`** — the 22 official Artemis II wallpapers (1080×1920), Earth–Moon–Orion
+- **`Misc/`** — everything else phone-shaped, grouped by source year
+
+*One folder to sync to a phone; desktop folders stay desktop-only.*
+
+---
+
+### `Social Assets` · 21.2 MiB · 125 images  
+**Avatars, banners, press kits — deliberately not wallpapers**
+
+- **`The Crew 2/`** — the full Ubisoft press kit: Facebook covers, Twitter/Instagram/YouTube avatars, banners, key art
+- **`Avatars/`** — small square profile images pulled out of 2018–2021
+- **`Misc/`** — stray downloads (`images.jpg`, `download.png`) that were never wallpapers
+
+*Kept for reference, separated so the wallpaper folders stay clean.*
 
 ---
 
@@ -311,35 +322,35 @@ A dedicated **BUGATTI Solitaire Destrier** drop: sculptural bodywork, dark studi
 
 ---
 
-### `MKBHDWallpapers` · 257 MB  
+### `MKBHDWallpapers` · 39.8 MiB · 28 images  
 **Tech aesthetic, creator-curated**
 
 Marques Brownlee–adjacent tech wallpaper culture: **8K polygon** series, **Bleeding Edge** dark tech, numbered **1622xxx** series, vibrant color-tech hybrids. Built for people who care about **industrial design on a pixel grid**.
 
 ---
 
-### `CrystalWallpapers` · 331 MB  
+### `CrystalWallpapers` · 32.1 MiB · 22 images  
 **Crystal & refraction**
 
 `Crystal/` · `Encorified/` · `New/` · `Unused/` — refractive surfaces, gem-like renders, glassy abstractions. Gorgeous on **2K and 4K** where fine detail matters.
 
 ---
 
-### `CyberPunk Wallpaper` · 89 MB  
+### `CyberPunk Wallpaper` · 78.0 MiB · 32 images  
 **Neon noir standalone**
 
 Extra Night City energy beyond the 2021 faction folders — dystopian futures, chrome and rain.
 
 ---
 
-### `Aura Wallpaper` · 17 MB  
+### `Aura Wallpaper` · 1.3 MiB · 28 images  
 **Gradient system**
 
-`type-0` through `type-4` — from simple two-tone to complex multi-stop blends, multiple resolutions including mobile-friendly sizes (**1242×2688** class in type-0).
+`type-0` through `type-4` — from simple two-tone to complex multi-stop blends. The mobile sizes (**1242×2688** class) now live in `Phone Wallpapers/Android/Aura/`; this folder keeps the desktop and ultrawide variants.
 
 ---
 
-### `Texture` · 312 MB · `Stokes` · 122 MB · `Facets` · 13 MB  
+### `Texture` · 68 MiB · `Stokes` · 95.8 MiB · `Facets` · 13 MiB  
 **Surface, art, geometry**
 
 - **Texture** — materials: stone, fabric, metal, organic surfaces  
@@ -357,14 +368,14 @@ Hand-picked **Unsplash**, professional **Getty** selections, and a compact **Lin
 
 ---
 
-### `Mac Internal` · 49 MB · `Windows11-DefaultWallpaper` · 28 MB  
+### `Mac Internal` · 4.8 MiB · `Windows11-DefaultWallpaper` · 27.7 MiB  
 **OS-native energy**
 
 Mac-internal design language experiments and **official Windows 11** default variants (Theme A–D, 4K, touch keyboard assets) — for purists who want **platform-authentic** backgrounds.
 
 ---
 
-### `Look Back` · 59 MB · `wallpapers_pack` · 8.6 MB  
+### `Look Back` · 2.5 MiB · `wallpapers_pack` · 8.6 MiB  
 **Retro & misc**
 
 Vintage nostalgia (`Look Back`) plus a general mixed **`wallpapers_pack`** for surprises.
@@ -411,7 +422,7 @@ Everything scales down fine. Prioritize **`Texture`**, **`Stokes`**, **`2022–2
 
 ### iPhone
 
-**`2021 Wallpaper`** → **iPhone 12 Wallpaper** (Live + static).
+**`Phone Wallpapers/iOS/iPhone 12`** (Live + static).
 
 ### Android
 
@@ -430,11 +441,21 @@ Install via Steam. Some Workshop items need subscription. GPU recommended; disab
 | Format | Best for | Notes |
 |--------|----------|-------|
 | **JPEG** | Photos, large scenes | Smaller size, great for Unsplash/nature |
-| **PNG** | Gradients, UI-clean art, lossless edges | macOS paired DM/LM sets |
+| **WebP** | Gradients, illustration, UI-clean art | Repo standard (q92); PNG sources were re-encoded in Oct 2026 |
 | **HEIC / HEIF** | Apple Park set and other images | Native support varies; Windows may need HEIF extensions or conversion |
-| **WebP** | Modern web-sourced assets | Broad support on current OS versions |
+| **PNG** | Legacy only | Kept only where lossless alpha is mandatory |
 
-**Windows HEIC / HEIF tip:** Microsoft Store → *HEIF Image Extensions*, or batch-convert with ImageMagick / GIMP / CloudConvert.
+**Windows HEIC / HEIF tip:** Microsoft Store → *HEIF Image Extensions*, or run `bash scripts/heic2jpg.sh` to create JPEG siblings in place.
+
+---
+
+## Tooling
+
+| Script | What it does |
+|--------|--------------|
+| `python3 scripts/stats.py` | Per-folder image/video counts and sizes. `--check` verifies this README (runs in CI), `--write` fixes it |
+| `python3 scripts/build_gallery.py` | Builds a local HTML gallery with lazy thumbnails in `gallery/` (gitignored) |
+| `bash scripts/heic2jpg.sh` | Converts HEIC/HEIF to JPEG siblings for Windows / Linux |
 
 ---
 
@@ -459,7 +480,7 @@ Found a rights issue? Open a GitHub Issue — takedown-friendly.
 2. **Does the folder teach a story?** — year or theme, never “misc_(final)(2)”  
 3. **Resolution honesty** — keep native high-res; avoid upscaled mush  
 4. **Annual closure** — each year gets its lane; active work lives in the current year folder  
-5. **Special drops earn folders** — NASA Artemis II earned `Artemis II/`, not a buried filename  
+5. **Special drops earn folders** — NASA Artemis II kept its own folder inside `Phone Wallpapers/`, not a buried filename  
 
 ---
 
@@ -467,10 +488,11 @@ Found a rights issue? Open a GitHub Issue — takedown-friendly.
 
 | When | What changed |
 |------|----------------|
+| **Oct 21, 2026** | Re-curated: phone wallpapers → `Phone Wallpapers/`, press kits & avatars → `Social Assets/`; byte-identical `Year of 2021` tree removed; PNG art re-encoded to WebP q92; repo now **27 folders / 2,685 images / 18 videos / ~5.8 GiB**, `.git` down from 8.9 GB to 5.7 GB |
 | **Oct 8, 2026** | Stats checked against the working tree: **27 folders**, **3,079 images**, **36 videos**, ~**10.2 GiB** of media; `2026 Wallpaper` has **272 images / ~963 MiB** |
 | **Aug 7, 2026** | README stats refresh: ~18 GB, **3,033 images**, **26 folders**; added **`BugattiDestrier`** (33 images / 141 MB) |
 | **Jun 2026** | README v10 showcase edition; previous stats snapshot (2,918 files, 25 categories) |
-| **2026** | Earlier snapshot: `2026 Wallpaper` → **242 images / 831 MB**; added **`Artemis II`** NASA set (22 images) |
+| **2026** | Earlier snapshot: `2026 Wallpaper` → **242 images / 831 MB**; added the **NASA Artemis II** set (22 phone wallpapers) |
 | **2025** | **252 images / 1.1 GB** — AI art, iPad series, ultrawide, macOS DM/LM pairs, F1/automotive |
 | **2024** | 383 MB — style fusion year |
 | **2023** | 309 MB — minimalism pass |
@@ -513,17 +535,17 @@ Photographers, designers, and fellow curators — welcome.
 
 | Trophy | Holder |
 |--------|--------|
-| Largest theme | `黑猫的野望壁纸包` (1.7 GB, 204 images) |
+| Largest theme | `黑猫的野望壁纸包` (815 MiB, 204 images) |
 | Most versatile year | `2025 Wallpaper` (252 images, DM/LM pairs, Mac masters, F1) |
-| Current growth engine | `2026 Wallpaper` (272 images, ~963 MiB) |
+| Current growth engine | `2026 Wallpaper` (280 images, 600 MiB) |
 | Newest automotive drop | `BugattiDestrier` (33 Bugatti wallpapers) |
 | Most “premium device” | `Apple Park` (9× HEIC architectural) |
-| Most “wow, that is real space” | `Artemis II` (NASA mission set) |
+| Most “wow, that is real space” | `Phone Wallpapers/NASA Artemis II` (22 mission wallpapers) |
 | Deepest game lore | `2021` Cyberpunk corporate factions |
 
 ---
 
-**Last updated:** October 8, 2026 · **Version:** v10.2 Community Edition · **Release:** v4.1.0
+**Last updated:** October 21, 2026 · **Version:** v11.0 Community Edition · **Release:** v5.0.0
 
 **Discoverability tags:** `wallpaper` `wallpapers` `4k-wallpaper` `ultrawide` `macos` `unsplash` `cyberpunk` `anime-wallpaper` `nasa` `curated` `desktop-background`
 
@@ -556,7 +578,7 @@ Photographers, designers, and fellow curators — welcome.
 |------|------|
 | **收藏** | [**Star**](https://github.com/MilesCorporate/The-Wallpaper-Collection/stargazers) — 关注更新，提高仓库曝光 |
 | **拥有副本** | [**Fork**](https://github.com/MilesCorporate/The-Wallpaper-Collection/fork) — 完整备份到你自己的 GitHub |
-| **本地使用** | 克隆（媒体文件约 10.2 GiB；Git 历史会增加下载量） |
+| **本地使用** | 克隆（媒体文件约 5.8 GiB，历史已含在克隆体积内） |
 
 ```bash
 git clone https://github.com/MilesCorporate/The-Wallpaper-Collection.git
@@ -573,7 +595,7 @@ git clone https://github.com/MilesCorporate/The-Wallpaper-Collection.git
 |------|----------|------|
 | **新机装机** | `2026 Wallpaper` → `2025 Wallpaper` → `Apple Park` | 4K/5K、Mac 或 Windows |
 | **超宽 / 赛车** | `2026` → `2025`（搜 `3440`、`ultrawide`、F1） | 21:9 / 32:9 |
-| **氛围 / 同人** | `黑猫的野望壁纸包` · `2021/CyberPunk 2077` · `Artemis II` | 动漫、赛博朋克、NASA |
+| **氛围 / 同人** | `黑猫的野望壁纸包` · `2021/CyberPunk 2077` · `Phone Wallpapers/NASA Artemis II` | 动漫、赛博朋克、NASA |
 | **豪车 / 工业设计** | `BugattiDestrier` · `2026 Wallpaper`（搜 F1、Audi、Mercedes-AMG） | 超跑、赛车、汽车设计 |
 
 ---
@@ -581,7 +603,7 @@ git clone https://github.com/MilesCorporate/The-Wallpaper-Collection.git
 ### 为什么值得 Star / Fork
 
 - **Star**：免费书签、接收更新、帮项目在 GitHub 上被更多人看见 → [**点此 Star**](https://github.com/MilesCorporate/The-Wallpaper-Collection/stargazers)  
-- **Fork**：约 10.2 GiB 媒体文件 / 3,079 张图片与 36 个视频落到你的账号；Git 历史会增加容量，可删减定制并 PR 贡献壁纸 → [**点此 Fork**](https://github.com/MilesCorporate/The-Wallpaper-Collection/fork)
+- **Fork**：约 5.8 GiB 媒体文件 / 2,685 张图片与 18 个视频落到你的账号；Git 历史会增加容量，可删减定制并 PR 贡献壁纸 → [**点此 Fork**](https://github.com/MilesCorporate/The-Wallpaper-Collection/fork)
 
 分享链接：`https://github.com/MilesCorporate/The-Wallpaper-Collection`
 
@@ -595,7 +617,7 @@ git clone https://github.com/MilesCorporate/The-Wallpaper-Collection.git
 | **分辨率到位** | 从 1080p 经典到 **4K / 5K / 8K** 与 **超宽屏（3440×1440+）**，含 F1、豪车与 Mac 级大图 |
 | **设备友好** | iPad（YTECHB）、iPhone 12 官方、超宽合集、深浅色**配对** macOS 渐变 |
 | **文化与工艺** | 赛博朋克公司阵营、动漫大作（**204** 张）、Apple Park **HEIC** 园区、**Artemis II** 绕月视角与 **Bugatti** 专题 |
-| **仍在生长** | 仅 **2026** 文件夹就达 **~963 MiB / 272 张**——活跃更新线，不是过时快照 |
+| **仍在生长** | 仅 **2026** 文件夹就达 **600 MiB / 280 张**——活跃更新线，不是过时快照 |
 
 ---
 
@@ -605,12 +627,12 @@ git clone https://github.com/MilesCorporate/The-Wallpaper-Collection.git
 |------|------|
 | **时间跨度** | 2018 → 2026 |
 | **顶层分类** | **27** 个文件夹 |
-| **工作区媒体容量** | **约 10.2 GiB**（图片与视频，不含 Git 历史） |
-| **图片数量** | **3,079** 张（JPG / JPEG / PNG / HEIC / HEIF / WebP） |
-| **视频数量** | **36** 个（MOV） |
+| **工作区媒体容量** | **约 5.8 GiB**（图片与视频） |
+| **图片数量** | **2,685** 张（JPG / WebP / HEIC / HEIF — PNG 已转 WebP） |
+| **视频数量** | **18** 个（MOV） |
 | **分辨率** | 1080p 至 **8K** |
-| **最大主题包** | `黑猫的野望壁纸包` — **1.7 GB**，**204** 张 |
-| **最新主力** | `2026 Wallpaper` — **~963 MiB**，**272** 张 |
+| **最大主题包** | `黑猫的野望壁纸包` — **815 MiB**，**204** 张 |
+| **最新主力** | `2026 Wallpaper` — **600 MiB**，**280** 张 |
 | **全新专题** | `BugattiDestrier` — **33** 张 BUGATTI Solitaire Destrier 壁纸 |
 
 ---
@@ -634,6 +656,8 @@ git clone https://github.com/MilesCorporate/The-Wallpaper-Collection.git
 The-Wallpaper-Collection/
 ├── 📅 年度系列（2018–2026）  ← 时间轴：每年流行什么
 ├── 🎨 主题典藏               ← 单点深挖：品牌、游戏、材质、NASA、汽车设计
+├── 📱 Phone Wallpapers       ← 所有竖屏手机壁纸
+├── 📣 Social Assets          ← 头像、社交横幅、品牌物料
 └── README.md
 ```
 
@@ -643,48 +667,44 @@ The-Wallpaper-Collection/
 
 ## 年度系列 — 品味时间线
 
-### `2018-2020 Wallpaper` · 1.4 GB · 820 张  
+### `2018-2020 Wallpaper` · 1.1 GiB · 633 张  
 **奠基时代** — Fluent Design、Surface（27）、MSI、ROG、The Crew 2、Windows 官方（24）、2018 活动合集。
 
-### `2021 Wallpaper` · 1.1 GB · 403 张  
+### `2021 Wallpaper` · 833 MiB · 363 张  
 **游戏复兴** — 赛博朋克 **荒坂 / 康陶 / 军用科技 / 创伤小组**、Hello、Holiday、Yosemite、**iPhone 12 官方**（含 Live / Teardown）。
 
-### `2022 Wallpaper` · 399 MB · 166 张  
+### `2022 Wallpaper` · 312 MiB · 161 张  
 **重质不重量** — 筛选更严，只留依然耐看的。
 
-### `2023 Wallpaper` · 309 MB · 112 张  
+### `2023 Wallpaper` · 229 MiB · 106 张  
 **现代简约** — 适合专注办公与低调笔电。
 
-### `2024 Wallpaper` · 383 MB · 96 张  
+### `2024 Wallpaper` · 231 MiB · 93 张  
 **多元融合** — 抽象、摄影、科技、暗色并存，通向 AI 与超宽屏时代。
 
-### `2025 Wallpaper` · 1.1 GB · 252 张  
+### `2025 Wallpaper` · 761 MiB · 252 张  
 **进化之年** — 深浅色 **4K 配对渐变**、超大 Mac 原生图、YTECHB iPad、AI 艺术、超宽、F1/豪车、Unsplash 与自然风光。**换新机首选文件夹。**
 
-### `2026 Wallpaper` · ~963 MiB · 272 张
+### `2026 Wallpaper` · 600 MiB · 280 张
 **当前旗舰** — Unsplash 2026、自然与野生动物、F1/奔驰/奥迪级宽屏、macOS 经典与新渐变、7680×4320 级素材。**本月只需同步这一个文件夹也值。**
-
-### `Year of 2021` · 1.1 GB  
-与 `2021 Wallpaper` 平行的 2021 归档结构，命名不同，时代相同。
-
----
 
 ## 主题典藏 — 执念，打包好了
 
 | 文件夹 | 容量 | 卖点 |
 |--------|------|------|
-| `黑猫的野望壁纸包` | 1.7 GB · 204 张 | 全库最大 — 动漫/宅文化主场 |
+| `黑猫的野望壁纸包` | 815 MiB · 204 张 | 全库最大 — 动漫/宅文化主场 |
 | `Apple Park` | 129 MB · 9 张 HEIC | 苹果园区建筑摄影，Retina 绝配 |
-| `Artemis II` | 19 MB · 22 张 | **2026 新增** — NASA 官方登月任务壁纸 |
+| `Phone Wallpapers` | 89.8 MiB · 173 张 | 手机竖屏专线 — iOS / Android / NASA Artemis II / 杂项 |
+| `Social Assets` | 21.2 MiB · 125 张 | 头像、社交横幅、育碧 The Crew 2 物料 |
 | `BugattiDestrier` | 141 MB · 33 张 | **最新汽车专题** — BUGATTI Solitaire Destrier 超跑视觉 |
-| `MKBHDWallpapers` | 257 MB | 科技美学、8K 多边形、Bleeding Edge |
-| `CrystalWallpapers` | 331 MB | 水晶/折射，`Crystal` `Encorified` `New` |
-| `CyberPunk Wallpaper` | 89 MB | 霓虹反乌托邦独立补充 |
-| `Aura Wallpaper` | 17 MB | type-0～4 渐变体系 |
-| `Texture` / `Stokes` / `Facets` | 312 / 122 / 13 MB | 材质 · 艺术 · 几何 |
+| `MKBHDWallpapers` | 39.8 MiB · 28 张 | 科技美学、8K 多边形、Bleeding Edge |
+| `CrystalWallpapers` | 32.1 MiB · 22 张 | 水晶/折射，`Crystal` `Encorified` `New` |
+| `CyberPunk Wallpaper` | 78.0 MiB · 32 张 | 霓虹反乌托邦独立补充 |
+| `Aura Wallpaper` | 1.3 MiB · 28 张 | type-0～4 渐变体系 |
+| `Texture` / `Stokes` / `Facets` | 68 / 95.8 / 13 MiB | 材质 · 艺术 · 几何 |
 | `Unsplash` / `GettyImages` | 77 / 10 MB | 专业摄影通道 |
-| `Mac Internal` / `Windows11-DefaultWallpaper` | 49 / 28 MB | 平台原生气质 |
-| `Look Back` / `wallpapers_pack` | 59 / 8.6 MB | 复古与杂选 |
+| `Mac Internal` / `Windows11-DefaultWallpaper` | 4.8 / 27.7 MiB | 平台原生气质 |
+| `Look Back` / `wallpapers_pack` | 2.5 / 8.6 MiB | 复古与杂选 |
 
 ---
 
@@ -695,11 +715,21 @@ The-Wallpaper-Collection/
 | **4K / 5K** | `2025` + `2026` → `MKBHD` → `Apple Park` |
 | **超宽屏** | `2025` / `2026` 中带 `3440x1440`、ultrawide、车类宽图 |
 | **1080p** | `Texture`、`Stokes`、`2022–2023` |
-| **iPad** | `2025 Wallpaper`（YTECHB） |
-| **iPhone** | `2021 Wallpaper` / iPhone 12 系列 |
+| **iPad** | `2025 Wallpaper`（YTECHB）、`Phone Wallpapers` 竖屏图 |
+| **iPhone** | `Phone Wallpapers/iOS/`（iPhone 12 系列） |
 | **WallpaperEngine** | Steam 安装；动态壁纸建议独显 |
 
 **HEIC / HEIF（Windows）：** 安装 HEIF 扩展，或用 ImageMagick / GIMP / 在线工具转换。
+
+---
+
+## 工具
+
+| 脚本 | 作用 |
+|------|------|
+| `python3 scripts/stats.py` | 按文件夹统计图片/视频数量与体积；`--check` 校验本文数字（CI 会跑），`--write` 自动修正 |
+| `python3 scripts/build_gallery.py` | 本地生成带懒加载缩略图的 `gallery/index.html`（已 gitignore） |
+| `bash scripts/heic2jpg.sh` | 批量把 HEIC/HEIF 转成同名 JPG，方便 Windows / Linux |
 
 ---
 
@@ -759,7 +789,7 @@ The-Wallpaper-Collection/
 | 当前增长引擎 | `2026 Wallpaper` |
 | 最新汽车专题 | `BugattiDestrier`（33 张 BUGATTI 壁纸） |
 | 最 premium 设备向 | `Apple Park`（HEIC） |
-| 最震撼真实太空 | `Artemis II`（NASA） |
+| 最震撼真实太空 | `Phone Wallpapers/NASA Artemis II`（22 张 NASA 任务壁纸） |
 | 最深游戏叙事 | 2021 赛博朋克公司阵营 |
 
 ---
