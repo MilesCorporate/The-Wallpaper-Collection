@@ -824,7 +824,7 @@ The-Wallpaper-Collection/
 
 ---
 
-**最后更新：** 2026 年 10 月 8 日 · **版本：** v10.2 Community Edition · **Release：** v4.1.0
+**最后更新：** 2026 年 10 月 21 日 · **版本：** v11.0 Community Edition · **Release：** v5.0.0
 
 <p align="center">
   <strong>⭐ Star · 🍴 Fork · 🔗 Share</strong><br>
