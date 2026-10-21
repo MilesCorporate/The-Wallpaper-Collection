@@ -37,7 +37,7 @@ That is all. `git pull` is not the right tool here.
 
 On GitHub: open your fork → **Sync fork** → if it offers **Discard commits**, take it.
 
-Or from the command line:
+If GitHub refuses because the histories are unrelated, use the command line instead:
 
 ```bash
 git remote add upstream https://github.com/MilesCorporate/The-Wallpaper-Collection.git
@@ -53,6 +53,7 @@ Your commits are safe; they simply sit on the old history. Replay them onto the 
 **Option 1 — rebase** (if `95d3b2c` is in your history):
 
 ```bash
+# skip the first line if you already have an `upstream` remote
 git remote add upstream https://github.com/MilesCorporate/The-Wallpaper-Collection.git
 git fetch upstream
 git branch backup/my-work            # safety net
@@ -65,6 +66,7 @@ git push --force-with-lease origin main
 **Option 2 — patches** (works regardless of fork point):
 
 ```bash
+git remote add upstream https://github.com/MilesCorporate/The-Wallpaper-Collection.git
 git format-patch --stdout <your-fork-point>..main > ~/my-wallpaper-changes.patch
 git fetch upstream
 git reset --hard upstream/main
@@ -74,6 +76,8 @@ git am ~/my-wallpaper-changes.patch
 Expect conflicts where your changes touch files that moved — the mapping below tells you where they went. Resolve, then push.
 
 > Either way your fork is not damaged: the old history still exists inside it.
+
+**Open pull requests:** PRs opened against the old history can no longer be merged. Rebase your branch as above, then open a fresh PR against the new `main`.
 
 ## Fix D — I just want the images
 
@@ -95,7 +99,7 @@ Or use **Code → Download ZIP** on GitHub.
 | `Stokes/*_iPhone*` | `Phone Wallpapers/iOS/Stokes/` |
 | other portrait images from year folders | `Phone Wallpapers/{iOS,Android,Misc}/<year>/` |
 | `v2-*.jpg` avatars, `images.jpg`, `download.png` | `Social Assets/Avatars/` or `Social Assets/Misc/` |
-| any image ≥ 2.05:1 and ≥ 2560×1000 | `Ultrawide Wallpapers/{21x9,32x9,Panorama}/` (same filename) |
+| any image ≥ 2.05:1 and ≥ 2560×1000 | `Ultrawide Wallpapers/{21x9,32x9,Panorama}/` (same filename; one collision became `1201491 (2).jpg`) |
 | `*.png` anywhere | `*.webp` in the same folder |
 
 Scripts that glob `*.png` will now match nothing — switch to `*.webp` (or both).
