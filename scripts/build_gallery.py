@@ -11,9 +11,11 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import html
 import json
 import os
+import subprocess
+import sys
+import tempfile
 from concurrent.futures import ProcessPoolExecutor
 
 from PIL import Image
@@ -36,15 +38,31 @@ def collect() -> list[str]:
     return sorted(files)
 
 
+def _open(src: str):
+    """Pillow first; on macOS fall back to sips for HEIC/HEIF."""
+    try:
+        return Image.open(src), None
+    except Exception:
+        if sys.platform != "darwin":
+            raise
+        tmp = tempfile.NamedTemporaryFile(suffix=".jpg", delete=False).name
+        subprocess.run(["sips", "-s", "format", "jpeg", src, "--out", tmp],
+                       check=True, capture_output=True)
+        return Image.open(tmp), tmp
+
+
 def make_thumb(rel: str) -> dict | None:
     try:
         src = os.path.join(ROOT, rel)
         name = hashlib.md5(rel.encode()).hexdigest()[:16] + ".webp"
         dst = os.path.join(THUMBS, name)
-        with Image.open(src) as im:
+        im, tmp = _open(src)
+        with im:
             w, h = im.size
             im.thumbnail((SIZE, SIZE), Image.LANCZOS)
             im.convert("RGB").save(dst, "WEBP", quality=80, method=4)
+        if tmp:
+            os.unlink(tmp)
         return {"p": rel, "t": name, "w": w, "h": h, "f": rel.split(os.sep)[0]}
     except Exception:
         return None
