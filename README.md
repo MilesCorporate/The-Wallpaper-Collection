@@ -482,7 +482,7 @@ Install via Steam. Some Workshop items need subscription. GPU recommended; disab
 
 | Script | What it does |
 |--------|--------------|
-| `python3 scripts/stats.py` | Per-folder image/video counts and sizes. `--check` verifies this README (runs in CI), `--write` fixes it |
+| `python3 scripts/stats.py` | Per-folder image/video counts and sizes. `--check` verifies this README, `--write` fixes it |
 | `python3 scripts/build_gallery.py` | Builds a local HTML gallery with lazy thumbnails in `gallery/` (gitignored) |
 | `bash scripts/heic2jpg.sh` | Converts HEIC/HEIF to JPEG siblings for Windows / Linux |
 
@@ -760,7 +760,7 @@ The-Wallpaper-Collection/
 
 | 脚本 | 作用 |
 |------|------|
-| `python3 scripts/stats.py` | 按文件夹统计图片/视频数量与体积；`--check` 校验本文数字（CI 会跑），`--write` 自动修正 |
+| `python3 scripts/stats.py` | 按文件夹统计图片/视频数量与体积；`--check` 校验本文数字，`--write` 自动修正 |
 | `python3 scripts/build_gallery.py` | 本地生成带懒加载缩略图的 `gallery/index.html`（已 gitignore） |
 | `bash scripts/heic2jpg.sh` | 批量把 HEIC/HEIF 转成同名 JPG，方便 Windows / Linux |
 

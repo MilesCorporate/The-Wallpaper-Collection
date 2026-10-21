@@ -43,7 +43,7 @@ python3 scripts/stats.py --check  # README numbers in sync?
 ```
 
 - Run a duplicate check: identical files are rejected (the same artwork in two years is not a feature).
-- Keep the README numbers in sync — CI runs `scripts/stats.py --check` and will fail otherwise.
+- Keep the README numbers in sync — run `python3 scripts/stats.py --check` before opening a PR.
 - One logical change per PR: new pack, reorganization, or docs — not all three.
 
 ## Rights
