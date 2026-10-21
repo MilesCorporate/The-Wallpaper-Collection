@@ -25,10 +25,14 @@
 > [!IMPORTANT]
 > **2026-10-21 · History rewritten and the collection restructured.**
 > Every old commit and tag now has a **new SHA**, about **480 files moved** (`*.png` → `*.webp`; new `Phone Wallpapers/`, `Social Assets/`, `Ultrawide Wallpapers/` lanes), and `Year of 2021/` was removed as a byte-identical duplicate.
+> **Why:** the repository had reached **9.55 GB of Git history** for 10.2 GiB of files. Every clone, fork, backup and CI checkout paid for it — and `--depth 1` did not help, because 99.6% of that history was simply the current files. The rewrite takes it to **5.7 GB** without losing a single unique image. [Full rationale](MIGRATION.md#why-this-happened).
+>
 > **If you cloned or forked before this date, `git pull` will fail with “unrelated histories”.** Re-clone, or follow the one-command path for your case in **[MIGRATION.md](MIGRATION.md)**. Your fork itself is not damaged — only its link to upstream.
 >
 > **2026-10-21 · 历史已重写，目录已重构。**
 > 旧 commit 与 tag 全部换了 **SHA**，约 **480 个文件**迁移（`*.png` → `*.webp`；新增 `Phone Wallpapers/`、`Social Assets/`、`Ultrawide Wallpapers/`），并删除了与 `2021 Wallpaper/` 逐字节相同的 `Year of 2021/`。
+> **为什么：** Git 历史已经涨到 **9.55 GB**（文件本身 10.2 GiB），每次 clone、fork、备份、CI checkout 都要为它买单；`--depth 1` 也没用——99.6% 的历史就是当前这批文件。重写后降到 **5.7 GB**，没有丢失任何一张独有图片。详见 [完整说明](MIGRATION.md#why-this-happened)。
+>
 > **此前 clone 或 fork 的，`git pull` 会报 “unrelated histories”。** 解决方式：重新 clone，或按 **[MIGRATION.md](MIGRATION.md)** 中对应你情况的一条命令处理。你的 fork 本身没有损坏，只是与上游的关联断了。
 
 ---

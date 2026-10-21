@@ -112,6 +112,40 @@ The 703 PNGs were re-encoded to WebP quality 92, cutting 4.0 GB of PNG down to ~
 - **macOS / Linux / browsers:** native support.
 - Need PNG back? `sips -s format png in.webp --out out.png` (macOS) or `magick in.webp out.png` (ImageMagick). The original detail is already lost, though.
 
-## Why?
+## Why this happened
 
-Three reasons: a byte-identical duplicate tree doubled the checkout; PNGs were 39% of the repository with no quality benefit; and phone / social / ultrawide images were scattered across nine year folders. The full changelog is in [README.md](README.md#update-log).
+**The trigger was repository size.** By October 2026 the repository had grown to **9.55 GB of Git history** for **10.23 GiB of files** — and because 99.6% of the objects in that history were simply the current files, every clone, fork, backup and CI checkout paid the full price.
+
+`git clone --depth 1` did not help. A shallow clone only trims dead history, and there was essentially none to trim (see below), so it downloaded almost the same 9.5 GB.
+
+Where the weight was:
+
+| Component | Size | Decision |
+|---|---|---|
+| JPEG wallpapers | 5.48 GiB | kept as-is — re-encoding already-lossy photos is a second generation of damage |
+| PNG art | **4.00 GiB / 703 files** | 39% of the repo for no visual gain → re-encoded to WebP q92 |
+| HEIC | 0.54 GiB | kept — already efficient |
+| MOV | 0.24 GiB | kept |
+| `Year of 2021/` | **1.1 GiB / 421 files** | byte-identical to `2021 Wallpaper/` → deleted |
+
+What we changed, and why each step was needed:
+
+1. **Removed the duplicate tree.** `Year of 2021/` was a literal `cp -R` of `2021 Wallpaper/` — 421 files, every one byte-identical. 1.1 GiB freed with zero content lost.
+
+2. **Re-encoded the PNG art to WebP q92.** The PNGs were mostly gradients, flat illustration and renders — exactly the content where PNG is least efficient and WebP is strongest. 4.0 GB → 0.4 GB. Sampled quality: **PSNR 38.1 dB / SSIM 0.982**, with ICC profiles and alpha channels preserved. JPEGs were deliberately left alone.
+
+3. **Rewrote the history.** This step looks drastic but was unavoidable: deleting files from the tip would not have shrunk anything. Of 2,666 historical blobs, **only 11 were unreachable** — `git gc` and `git filter-repo` without re-encoding would have saved roughly zero. The blobs themselves had to change, which means new object IDs for every commit that contains them.
+
+4. **Reorganized into device lanes.** Size-neutral, but it pulled ~480 phone / social / ultrawide files out of the desktop-year folders. That was partly a navigation fix and partly a curation decision: the social press kit in particular is not wallpaper content, and having it in one folder makes it trivial to drop later if size ever matters again.
+
+What we deliberately did **not** do:
+
+- **Split the repository.** "One museum you clone once" is the product; splitting it would trade a size problem for a navigation problem.
+- **Move media to Git LFS.** LFS does not reduce total storage, and the free quota (1 GB) would not cover 5.7 GB anyway.
+- **Re-encode JPEGs.** It could save ~1.8 GB, but a second lossy pass on photos is visible — not worth it for an archive whose whole point is the images.
+
+Result: **Git 9.55 GB → 5.68 GB**, **checkout 10.23 GiB → 5.81 GiB**, **3,087 → 2,685 images** — every removed file was an exact duplicate of one that remains.
+
+One honest caveat: **5.68 GB is still above GitHub's 5 GB comfort line.** Getting under it would require either re-encoding the JPEGs or splitting the archive; neither is planned. The current split of the savings is roughly: 3.6 GB from WebP, 1.1 GB from the duplicate tree, 0.2 GB from pruning.
+
+The full changelog is in [README.md](README.md#update-log).
