@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="#english">English</a> · <a href="#中文">中文</a> · <a href="#get-it-in-30-seconds">Quick start</a> · <a href="#starter-packs">Starter packs</a> · <a href="#star--fork--why-it-matters">Why Star / Fork</a>
+  <a href="#english">English</a> · <a href="#中文">中文</a> · <a href="#get-it-in-30-seconds">Quick start</a> · <a href="#starter-packs">Starter packs</a> · <a href="#star--fork--why-it-matters">Why Star / Fork</a> · <a href="MIGRATION.md">Migration</a>
 </p>
 
 > [!IMPORTANT]
