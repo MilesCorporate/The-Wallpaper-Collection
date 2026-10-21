@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
+# Auto-detect text files and normalise line endings.
 * text=auto
+
+# Text assets
+*.md      text
+*.py      text
+*.sh      text eol=lf
+*.yml     text
+*.yaml    text
+*.json    text
+*.txt     text
+
+# Binary media — never diff, merge, or convert line endings.
+*.jpg     binary
+*.jpeg    binary
+*.png     binary
+*.webp    binary
+*.heic    binary
+*.heif    binary
+*.mov     binary
+*.mp4     binary
