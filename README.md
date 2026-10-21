@@ -183,7 +183,7 @@ Where the standards were set. This is the **brand-and-platform** chapter:
 - **Fluent Design Collection** — Microsoft's design language, clean and confident  
 - **Surface Collection** (27 wallpapers) — WallpaperHub-era Surface exclusives  
 - **MSI** & **ROG** — gaming hardware identity, esports energy  
-- **The Crew 2** — automotive culture, speed and neon highways  
+- **The Crew 2** press kit — the full social-media drop now lives in `Social Assets/The Crew 2/`  
 - **Windows Wallpapers Collection** (24) — official Windows aesthetics  
 - **October 2018 Event Collection** — event-era Apple-style drops  
 
@@ -362,7 +362,7 @@ Extra Night City energy beyond the 2021 faction folders — dystopian futures, c
 ### `Aura Wallpaper` · 990 KiB · 21 images  
 **Gradient system**
 
-`type-0` through `type-4` — from simple two-tone to complex multi-stop blends. The mobile sizes (**1242×2688** class) now live in `Phone Wallpapers/Android/Aura/`; this folder keeps the desktop and ultrawide variants.
+`type-0` through `type-4` — from simple two-tone to complex multi-stop blends. The mobile sizes (**1242×2688** class) now live in `Phone Wallpapers/Android/Aura/`; this folder keeps the desktop variants; the ultrawide sizes are in `Ultrawide Wallpapers/21x9/`.
 
 ---
 
