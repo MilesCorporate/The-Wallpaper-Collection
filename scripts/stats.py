@@ -5,7 +5,7 @@ Usage:
     python3 scripts/stats.py            # human-readable table
     python3 scripts/stats.py --json     # machine-readable
     python3 scripts/stats.py --write    # sync the "By the numbers" tables in README.md
-    python3 scripts/stats.py --check    # exit 1 if README is stale (used by CI)
+    python3 scripts/stats.py --check    # exit 1 if README is stale or a shelf has a subfolder
 """
 from __future__ import annotations
 
@@ -41,8 +41,11 @@ def scan() -> dict:
         if name.startswith(".") or name in {"gallery", "scripts"} or not os.path.isdir(path):
             continue
         images = videos = size = 0
+        nested = []
         for dp, dn, fs in os.walk(path):
             dn[:] = [d for d in dn if not d.startswith(".")]
+            if os.path.normpath(dp) != path:
+                nested.append(os.path.relpath(dp, ROOT))
             for f in fs:
                 ext = os.path.splitext(f)[1].lower()
                 if ext in IMAGE_EXT:
@@ -52,7 +55,7 @@ def scan() -> dict:
                 else:
                     continue
                 size += os.path.getsize(os.path.join(dp, f))
-        folders[name] = {"images": images, "videos": videos, "bytes": size}
+        folders[name] = {"images": images, "videos": videos, "bytes": size, "nested": nested}
         total_images += images
         total_videos += videos
         total_bytes += size
@@ -64,8 +67,14 @@ def scan() -> dict:
             "videos": total_videos,
             "bytes": total_bytes,
             "gib": round(total_bytes / 1024**3, 2),
+            "nested": sum(len(v["nested"]) for v in folders.values()),
         },
     }
+
+
+def layout_problems(stats: dict) -> list[str]:
+    """Every shelf must be flat: macOS wallpaper settings do not recurse."""
+    return [p for v in stats["folders"].values() for p in v["nested"]]
 
 
 def human(n: float) -> str:
@@ -127,6 +136,12 @@ def main() -> int:
         return 0
 
     print_table(stats)
+    nested = layout_problems(stats)
+    if nested:
+        print("\nLayout violation — shelves must be one level deep"
+              " (the macOS wallpaper pane does not recurse):", file=sys.stderr)
+        for p in nested:
+            print("  -", p, file=sys.stderr)
     if args.write or args.check:
         with open(README, encoding="utf-8") as fh:
             readme = fh.read()
@@ -140,6 +155,8 @@ def main() -> int:
             return 1
         else:
             print("\nREADME matches the working tree.")
+        if args.check and nested:
+            return 1
     return 0
 
 

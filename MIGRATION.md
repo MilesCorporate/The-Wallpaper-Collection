@@ -2,6 +2,8 @@
 
 On **2026-10-21** this repository was rewritten and restructured. If you cloned or forked it before that date, read this first — a plain `git pull` will now fail with *"refusing to merge unrelated histories"*.
 
+> **2026-10-28 — layout-only change.** Every subfolder was flattened into its top-level shelf (macOS wallpaper settings do not recurse). No history was rewritten and no image content changed, so `git pull` works normally. Where a path below names a subfolder, the file now sits directly in that top-level folder. Details: [README → Flat by design](README.md#flat-by-design).
+
 ## What changed
 
 | Change | Detail |
