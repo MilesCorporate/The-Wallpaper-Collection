@@ -31,7 +31,7 @@ The Wallpaper Collection/
 | `Phone Wallpapers/` | Portrait mobile wallpapers (iPhone, Android, Artemis II, misc) | Desktop or ultrawide art |
 | `Social Assets/` | Avatars, social banners, brand press kits | Anything you would actually set as a wallpaper |
 | `Ultrawide Wallpapers/` | Anything ≥ 2.05:1 and ≥ 2560×1000 | 16:9 desktop art |
-| Thematic vaults (`BugattiDestrier`, `Texture`, …) | Subject-specific sets | Random one-offs |
+| Thematic vaults (`GTAVI_Artwork_Wallpapers`, `BugattiDestrier`, `Texture`, …) | Subject-specific sets | Random one-offs |
 
 ## Quality bar
 
@@ -51,6 +51,8 @@ The Wallpaper Collection/
 - Keep photographer attribution when the source provides it (`*-unsplash.jpg`).
 - When a sub-theme matters, put it **in the filename**, not in a folder (`Cyberpunk2077_Wallpapers_Arasaka_3840x2160_EN.webp`).
 - Spaces are tolerated in legacy files, but new files should use hyphens.
+
+**Imported sets keep their shipped filenames.** When a whole drop arrives with its own naming scheme (e.g. `GTAVI_Artwork_Wallpapers/Jason_Lucia_Rooftop_ultrawide.jpg`), keep it as-is — the set stays traceable to its source, and the size hint lives in the suffix. The naming rule above applies to new files you add yourself.
 
 ## Formats
 
